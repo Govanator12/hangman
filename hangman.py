@@ -51,9 +51,9 @@ class Hangman():
                 else:
                     print('_ ', end = '')
 
-                if set(characters).issubset(guesses):
-                    print('Nice work you win!')
-                    break
+            if set(characters).issubset(guesses):
+                print('Nice work you win!')
+                break
 
             print(f'\nYou have {guesses_remaining} guesses remaining')
             print(f'Your guesses so far: {guesses}')
@@ -73,14 +73,14 @@ class Hangman():
                     guesses.append(current_guess.lower())
 
                     if current_guess in word:
-                        print('Good guess! \n\n')
+                        print('\nGood guess! \n\n')
 
                     else:
-                        print('No dice :( \n\n')
+                        print('\nNo dice :( \n\n')
                         guesses_remaining -= 1
 
             else:
-                print('Out of guesses! Better luck next time!')
+                print(f'Out of guesses! Your word was {word} Better luck next time!')
                 break
 
     # menu function that starts the game
