@@ -1,4 +1,5 @@
 README.md
+setup.cfg
 setup.py
 Random_Word.egg-info/PKG-INFO
 Random_Word.egg-info/SOURCES.txt
