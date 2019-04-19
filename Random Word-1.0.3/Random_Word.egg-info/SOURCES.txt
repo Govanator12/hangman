@@ -1,0 +1,15 @@
+README.md
+setup.py
+Random_Word.egg-info/PKG-INFO
+Random_Word.egg-info/SOURCES.txt
+Random_Word.egg-info/dependency_links.txt
+Random_Word.egg-info/not-zip-safe
+Random_Word.egg-info/requires.txt
+Random_Word.egg-info/top_level.txt
+random_word/__init__.py
+random_word/config.py
+random_word/random_word.py
+random_word/tests/__init__.py
+random_word/tests/test_word.py
+random_word/utils/__init__.py
+random_word/utils/utils.py
